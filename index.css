@@ -93,6 +93,11 @@ img {
 }
 
 /* HEADER */
+
+.header {
+  padding-top: 18px;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -126,6 +131,7 @@ img {
 
 .logo-link {
   display: flex;
+  align-items: center;
   flex-grow: 1;
   gap: 14px;
 }
@@ -161,4 +167,37 @@ img {
   width: 14px;
   height: 14px;
   fill: var(--btn-gray);
+}
+
+/* HERO */
+.hero {
+  padding-top: 72px;
+  padding-bottom: 74px;
+}
+
+.hero-title {
+  max-width: 335px;
+  color: var(--btn-black);
+  text-align: center;
+  font-family: Neue Montreal;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.09;
+  letter-spacing: -0.02em;
+}
+
+.span-h1 {
+  color: #6d8434;
+}
+
+.hero-text {
+  margin: 0 auto;
+  max-width: 292px;
+  text-align: center;
+  color: rgba(1, 1, 1, 0.8);
+  font-family: Neue Montreal;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.29;
 }

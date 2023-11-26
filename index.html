@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container header-container">
         <a
           class="logo-link"
@@ -29,9 +29,9 @@
           </div>
           <p class="text-logo">Food Boutique</p>
         </a>
-
-        <button class="btn-header-home" type="button">Home</button>
-
+        <nav>
+          <button class="btn-header-home" type="button">Home</button>
+        </nav>
         <button class="button-buy js-add-product">
           <svg class="add-product-icon" width="14" height="14">
             <use href="./icons.svg#icon-shopping-cart"></use>
@@ -39,6 +39,19 @@
         </button>
       </div>
     </header>
+
+    <section class="hero">
+      <div class="container hero-container">
+        <h1 class="hero-title">
+          Welcome to the <span class="span-h1">Food</span> Boutique!
+        </h1>
+
+        <p class="hero-text">
+          With Food Boutique, you're not just subscribing to food, you're
+          signing up for a fresher, fitter, and happier you.
+        </p>
+      </div>
+    </section>
     <main></main>
     <footer></footer>
   </body>
